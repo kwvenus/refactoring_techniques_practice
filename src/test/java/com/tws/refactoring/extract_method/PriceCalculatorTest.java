@@ -27,6 +27,6 @@ public class PriceCalculatorTest {
     @Test
     public void priceCalculatorTest() {
         PriceCalculator priceCalculator = new PriceCalculator();
-        double expectedValue = priceCalculator.getPrice(2, 4);
+        double expectedValue = priceCalculator.getPrice_BasePriceMinusDiscountAddShippingCost(2, 4);
     }
 }
